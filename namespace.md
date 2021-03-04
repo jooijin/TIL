@@ -1,9 +1,11 @@
 namespace
-----------
-##### namespace란
+=========
+namespace란
+-----------
 namespace 자체는 별게 아니다..
 그냥 이름 그대로 어떤 공간에 이름을 붙여주는게 namespace이다.
-namespace가 왜 필요할까?
+
+##### namespace가 왜 필요할까?
 이름이 겹치는 식별자(변수, 함수, ...)가 같은 범위 내에 있을 경우 충돌이 발생하는데, 이를 막기 위해 사용하는 것이 namespace이다.
 
 A.h라는 헤더와 B.h라는 헤더가 있다고 생각해보자.
@@ -58,7 +60,8 @@ int main() {
 ```
 
 
-##### using namespace std;에 대하여
+using namespace std;에 대하여
+-------------------------------
 C++ 코드에서 using namespace std;라는 구문을 작성해놓은 것을 자주 볼 수 있다.
 그러나 이것은 bad practice로 간주되기도 한다.
 왜냐하면 std의 함수와 이름이 겹치는 함수를 사용하게 되면 나의 의도와 다른 결과가 나올 수 있기 때문이다.
